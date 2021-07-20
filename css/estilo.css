@@ -14,7 +14,7 @@ body{
 
 .sidebar{
     background-color: rgb(112, 106, 204);
-    width: 170vh;
+    width: 83%;
     height: 4rem;
     position: fixed;
     left: 9rem;
@@ -117,7 +117,7 @@ header{
 .footer{
     width: 100%;
     height: 15rem;
-    background-color: #6d91e6;
+    background-color: #414c66;
     position: relative;
     /* opacity: 50%; */
 }
@@ -132,5 +132,23 @@ header{
     justify-content: space-around;
 }
 
+.social-media w{
+    color: #ffffff;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.social-media w:hover{
+    color: rgb(0, 255, 0);
+}
+
+.social-media i{
+    color: rgb(255, 255, 255);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.social-media i:hover{
+    color: purple;
+}
 
 
