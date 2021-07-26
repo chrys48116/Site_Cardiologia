@@ -17,10 +17,11 @@ body{
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
     background: linear-gradient(to right, #4286f4, #373B44); 
     /* background-color: rgb(92, 86, 175); */
-    width: 79%;
+    width: 90%;
     height: 3.5rem;
     position: fixed;
-    left: 9rem;
+    /* left: 9rem; */
+    margin: 1% 5%;
     top: 2rem;
     border-radius: 100px;
     z-index: 100;
@@ -30,8 +31,8 @@ body{
 .menu-item{
     /* position: absolute; */
     display: inline;
-    padding-left: 2.5%;
-    padding-right: 2.8%;
+    padding-left: 3%;
+    padding-right: 3%;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
