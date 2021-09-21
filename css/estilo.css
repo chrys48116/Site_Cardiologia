@@ -45,8 +45,8 @@ body{
 }
 
 .menu-link:hover{
-    color: rgb(255, 0, 0);
-    text-shadow: .1rem .1rem 2px rgb(255, 0, 0);
+    color: rgb(233, 78, 78);
+    text-shadow: .1rem .1rem 2px rgb(247, 110, 110);
 }
 
 .line{
@@ -174,7 +174,7 @@ article{
 .informacao{
     position: absolute;
     top: 1rem;
-    left: 40rem;
+    left: 35%;
     text-align: center;
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -194,7 +194,7 @@ article{
 .social-media{
     width: 11%;
     position: absolute;
-    right: 20rem;
+    right: 20%;
     top: 1rem;
     font-size: 2.5rem;
     display: flex;
@@ -204,14 +204,14 @@ article{
 .logo{
     position: absolute;
     top: 1.5rem;
-    left: 25rem;
+    left: 20%;
     opacity: 90%;
     padding: 0;
 }
 .logo-nome{
     position: absolute;
-    left: 55rem;
-    top: 5rem;
+    left: 52%;
+    bottom: 1rem;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
@@ -223,7 +223,7 @@ article{
     height: 2.5rem;
 }
 .social-media w:hover{
-    color: purple;
+    color: rgb(128, 0, 0);
 }
 
 .social-media i{
@@ -233,7 +233,7 @@ article{
 }
 
 .social-media i:hover{
-    color: purple;
+    color: rgb(128, 9, 0);
 }
 
 .sessao-header{
@@ -265,14 +265,14 @@ article{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(13, 5rem);
     row-gap: 1rem;
-
+    border: 2rem;
 }
 
 .convenio{
     text-align: center;
     padding-left: 2rem;
     padding-right: 2rem;
-    background-color: #ffffff;
+    background-color: #ffffffc0;
     margin: 1rem;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -282,7 +282,7 @@ article{
     font-size: .9rem;
     bottom: 1rem;
     box-sizing: 1rem;
-    box-shadow: .1rem 2px #414c66;
+    box-shadow: .2rem 3px #414c66;
 }
 
 .corpo-clinico{
@@ -290,7 +290,43 @@ article{
     position: relative;
     height: 90rem;
     width: 100%;
+    background: #297fb92f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #297fb900);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #faf7f7, #6dd4fa9c, #297fb977); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.exames{
+    top: 1rem;
+    position: relative;
+    height: 150rem;
+    width: 100%;
+    /* background: #297fb92f;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #297fb900);  
+    background: linear-gradient(to right, #faf7f7, #6dd4fa9c, #297fb977);  */
+}
+
+.exame-nome{
+    margin: 8% 2%;
+}
+
+.exames h2{
+    box-sizing: .1rem;
+    box-shadow: .1rem 2px #ff0000;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.exames p{
+    font-size: 1.3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.preparos{
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    top: 10rem;
 }
 
 .titulo-pg{
@@ -304,8 +340,8 @@ article{
 .titulo-pg h1{
      position: absolute;
      top: 4rem;
-     left: 45%;
-     right: 40%;
+     left: 43%;
+     right: 38%;
      font-size: 1rem;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 2rem;
@@ -338,9 +374,14 @@ table tr, td, th{
     position: relative;
     height: 55rem;
     width: 100%;
-    background: #A1FFCE;
+    
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #A1FFCE;
     background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);
-    background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); */
 }
 
 .mvv{
