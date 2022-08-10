@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-mobile.css" media="screen and (max-width: 641px)">
+    <link rel="stylesheet" href="css/estilo.css" media="screen and (min-width: 641px)">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <title>CCOR - Centro de Cardiologia LTDA</title>
+</head>
+<body>
+
+    <div class="container">
+
+<!-- barra de navegação -->
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="Index.html" class="menu-link">Inicio</a></li>
+                    <li class="menu-item"><a href="exames.html" class="menu-link">Exames/Preparos</a></li>
+                    <li class="menu-item"><a href="convenios.html" class="menu-link">Convênios</a></li>
+                    <li class="menu-item"><a href="corpo-clinido.html" class="menu-link">Corpo Clinico</a></li>
+                    <li class="menu-item"><a href="quemsomos.html" class="menu-link">Quem somos</a></li>
+                    <li class="menu-item"><a href="contato.html" class="menu-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="whatsapp">
+                <a target="blank" href="https://wa.me/556196681973"><w class="fab fa-whatsapp" title="Faça seu agendamento pelo Whatsapp"></w></a>
+            </div>
+        </aside>
+
+        <section class="contato">
+
+            <div class="titulo-pg">
+                <h1>Contato</h1>
+            </div>
+
+            <div class="ouvidoria">
+                <h1>Ouvidoria</h1>
+
+                <div class="formulario">
+                    <form action="php/enviar-email.php" method="post" id="envia" name="envia">
+                        <fieldset class="grupo">
+                            <div class="campo">
+                                <label>Nome</label>
+                                <input type="text" name="nome" id="nome">
+                            </div>
+
+                            <div class="campo">
+                                <label>Sobrenome</label>
+                                <input type="text" name="sobrenome" id="sobrenome">
+                            </div>
+
+                            <div class="campo">
+                                <label>E-mail</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+
+                            <div class="campo">
+                                <label>Assunto</label>
+                                <select name="assunto" id="assunto">
+                                    <option value="">Elogio</option>
+                                    <option value="">Reclamação</option>
+                                    <option value="">Sugestão</option>
+                                    <option value="">Outros</option>
+                                </select>
+                            </div>
+
+                            <div class="campo">
+                                <label for="Descrição"></label>
+                                <textarea name="mensagem" id="mensagem" cols="65" rows="5" placeholder="Digite sua mensagem"></textarea>
+                            </div>
+                        </fieldset>
+
+                        <button type="submit" class="submit">Enviar</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+<!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="social-media">
+            <a target="blank" href="https://wa.me/556196681973"><w class="fab fa-whatsapp"></w></a>
+            <a target="blank" href="#"><i class="fab fa-instagram"></i></a>
+            <a target="blank" href="https://atendimentoccor@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <div class="informacao">
+            <a target="blank" href="https://goo.gl/maps/C75AQ8EzrdHShRio9" class="footer-link">Endereço:<br>SGAS II SGAS 613 - Asa Sul</a>
+            <p>Horario de atendimento:<br>Seg a Sex 08:00 ás 18:00</p>
+            <p>Fone:<br>(61)3878-2775<br>(61)3878-2781</p>
+        </div>
+
+        <div class="botao-ouvidoria">
+            <div class="link-ouvidoria"><a href="contato.html" class="link">Ouvidoria</a></div> 
+        </div>
+
+        <div class="logo-nome">
+            <p>CCOR - Centro do coração/CTCV</p>
+        </div>
+
+        <div class="logo">
+            <img class="logo-img" src="img/android-chrome-192x192.png" alt="Centro do Coração">
+        </div>
+    </footer>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
